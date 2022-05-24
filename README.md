@@ -1,71 +1,70 @@
-![BrightCoders Logo](img/logo-bc.png)
+# Getting Started with Create React App
 
-# Inmobiliaria
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Cover](img/cover.jpg)
-<span>Photo by <a href="https://unsplash.com/@jd_alon?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jose Alonso</a> on <a href="https://unsplash.com/s/photos/rental?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+## Available Scripts
 
-## Pre-requisitos
--  React Native
-   - Instalar el entorno de desarrollo [**:warning: utiliza la opción React Native CLI Quickstart NO utilizar Expo**](https://reactnative.dev/docs/environment-setup)
-- Editor de texto
-  - Elegir un editor para codificar, puede ser [Visual Studio Code](https://code.visualstudio.com/), o algúno similar.
-  - Agregar la extensión [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) para mantener un estilo consistente en tu código
-  - Instalar [ESLint](https://eslint.org/) para ayudarte a encontrar y arreglar problemas de tu código
-  - Agregar la extensión [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) a tu editor para integrar la funcionalidad de Eslint
-- Calidad de código. Para analizar la calidad de tu código necesitarás
-  - Instalar y configurar [CodeClimate](https://codeclimate.com/) para analizar tu codigo y mejorar la calidad atendiendo los resultados del análisis
-  
-## Requerimientos funcionales
-  
-  Una empresa inmobiliaria necesita una App para poder mostrar a sus clientes las propiedades que tiene disponibles en renta. La App mostrar un listado de todas las propiedades disponibles mostrando la siguiente información para cada propiedad:
-  - Nombre
-  - Dirección
-  - Número de habitaciones
-  - Número de baños
-  - Superficie
-  - Costo de renta mensual
-  - Evaluación o calificación de la propiedad
-  - Icono que permita al usuario indicar o marcar las propiedades que más le gustan
-  
-## Requerimientos no-funcionales
-- Base de datos
-  - Los datos se tomarán de manera local en formato JSON, puede ser una archivo, clase o constante 
-- Calidad
-  - Utilizar un estilo de código estandarizado (revisado por Eslint)
-  - Puntuación **A** obtenida en [CodeClimate](https://codeclimate.com/)
-- Ejecución 
-  - Puede ejecutarse en Android o iOs
-- Código fuente
-  - Orientado a Objetos
-  - Métodos pequeños
-  - Aplicar los principios [SOLID](https://blog.usejournal.com/how-to-apply-solid-principles-in-react-applications-6c964091a982)
-  
+In the project directory, you can run:
 
-## Tecnologías
-- [React Native CLI](https://reactnative.dev/docs/environment-setup)
-- [React Native Navigation](https://reactnavigation.org/)
-- [Hooks](https://es.reactjs.org/docs/hooks-intro.html)
+### `npm start`
 
-## Diseño
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-En la carpeta [img](/img) se encuentra el diseño solicitado en formato PNG y [Figma]().
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-![inmobiliaria-card](img/inmobiliaria-card.png)
-<img src="img/inmobiliaria.png" alt="inmobiliaria" width="450"/>
+### `npm test`
 
-## Flujo de trabajo sugerido
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- Divide tu trabajo en pequeñas tareas
-- Para cada pantalla identifica o clasifica los diferentes compones que se presentan
-- Inicia programando los componentes individuales procurando que estos sean reutilizables
-- Una vez que tienes listos los componentes integra las pantallas.
+### `npm run build`
 
-## Entregable
-- Código fuente en Github
-- Incluir en el repositorio la puntuación obtenida (badge) en CodeClimate
-- [Los commits deben se significativos](https://medium.com/better-programming/you-need-meaningful-commit-messages-d869e44e98d4)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Recursos
-[Para apoyo de tus actividades utiliza esta lista de recursos recomendados](https://brightcoder.gitbook.io/handbook/react-native)
-  
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
