@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "SoftRelax",
+    "direction": "st road malibu",
+    "numberRooms": 4,
+    "numberBathrooms": 3,
+    "area": "200mts²",
+    "cost": "1000",
+    "qualification": "5.0",
+    "img": "https://articles-images.sftcdn.net/wp-content/uploads/sites/2/2018/09/casa-alquiler.jpg",
+    "like": false
+  },
+  {
+    "id": 2,
+    "name": "Little House",
+    "direction": "st Villa Crespo",
+    "numberRooms": 2,
+    "numberBathrooms": 2,
+    "area": "144mts²",
+    "cost": "300",
+    "qualification": "3.5",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_848037-MLA29076635166_122018-W.jpg",
+    "like": false
+  },
+  {
+    "id": 3,
+    "name": "Summer House",
+    "direction": "st Bell Ville",
+    "numberRooms": 4,
+    "numberBathrooms": 3,
+    "area": "160mts²",
+    "cost": 500,
+    "qualification": "4.7",
+    "img": "https://www.elciudadanoweb.com/wp-content/uploads/2019/11/Alquileres_Verano.jpg",
+    "like": false
+  },
+  {
+    "id": 4,
+    "name": "Japanese Lucys House",
+    "direction": "st Nipon",
+    "numberRooms": 3,
+    "numberBathrooms": 2,
+    "area": "500mts²",
+    "cost": 600,
+    "qualification": "4.0",
+    "img": "https://cdn.bioguia.com/embed/f1b39c1c13e7eb0ffe19b485dba409b398b10911545057200/japon_regala_casas.jpg",
+    "like": false
+  },
+  {
+    "id": 5,
+    "name": "Forest Wind",
+    "direction": "st Ruiz Juliet",
+    "numberRooms": 4,
+    "numberBathrooms": 4,
+    "area": "1000mts²",
+    "cost": 3000,
+    "qualification":" 5.0",
+    "img": "https://images.sparairnos.com/property/38368/images/523571/full/44be7158-08dc-4447-96bc-d8214123a294",
+    "like": false
+  },
+  {
+    "id": 6,
+    "name": "Green Land",
+    "direction": "st Cordoba",
+    "numberRooms": 4,
+    "numberBathrooms": 2,
+    "area": "150mts²",
+    "cost": 1000,
+    "qualification": "4.3",
+    "img": "https://images.sparairnos.com/property/16559/images/265240/full/04c8d5a5-0c3e-487b-820e-52a732a40770",
+    "like": false
+  },
+  {
+    "id": 7,
+    "name": "Old House",
+    "direction": "st Avellaneda",
+    "numberRooms": 2,
+    "numberBathrooms": 1,
+    "area": "130mts²",
+    "cost": 200,
+    "qualification": "3.0",
+    "img": "https://www.todocostadeleste.com.ar/alojamiento/wp-content/uploads/cabana-costa-del-este-2-personas-25.jpg",
+    "like": false
+  },
+  {
+    "id": 8,
+    "name": "Modern Forest",
+    "direction": "st La falda",
+    "numberRooms": 3,
+    "numberBathrooms": 2,
+    "area": "190mts²",
+    "cost": 400,
+    "qualification": "4.0",
+    "img": "https://venialacosta.com/images/datos/5425_20160829160929608089194.JPG",
+    "like": false
+  },
+  {
+    "id": 9,
+    "name": "Paramount House",
+    "direction": "st La serena",
+    "numberRooms": 4,
+    "numberBathrooms": 3,
+    "area": "300mts²",
+    "cost": 1000,
+    "qualification": "4.7",
+    "img": "https://images.sparairnos.com/property/13648/images/215131/full/1c91adfa-6acf-4b26-ad75-9fe6bf0f3760",
+    "like": false
+  }
+]
