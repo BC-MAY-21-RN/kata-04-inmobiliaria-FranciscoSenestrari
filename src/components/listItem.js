@@ -14,6 +14,7 @@ const listItem = ({
   area,
   cost,
   like,
+  onPress,
 }) => {
   return (
     <View style={styles.container}>
@@ -27,7 +28,12 @@ const listItem = ({
         cost={cost}
       />
       <View style={styles.button}>
-        <Button name="gittip" size={40} color={like ? '#00b37a' : 'grey'} />
+        <Button
+          name="gittip"
+          size={40}
+          color={like ? '#00b37a' : 'grey'}
+          onPress={onPress}
+        />
       </View>
     </View>
   );
