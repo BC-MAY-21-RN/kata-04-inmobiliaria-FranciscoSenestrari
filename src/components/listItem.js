@@ -4,8 +4,17 @@ import ImageRate from './imageRate';
 import DetailsBar from './detailsBar';
 import React from 'react';
 
-const listItem = props => {
-  const {url, rate, title, location, bed, bathroom, area, cost, like} = props;
+const listItem = ({
+  url,
+  rate,
+  title,
+  location,
+  bed,
+  bathroom,
+  area,
+  cost,
+  like,
+}) => {
   return (
     <View style={styles.container}>
       <ImageRate url={url} rate={rate} />

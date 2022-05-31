@@ -2,8 +2,7 @@ import {StyleSheet, Text, View} from 'react-native';
 import {Icon} from 'react-native-elements';
 import React from 'react';
 
-const textIcon = props => {
-  const {type, color, title, size} = props;
+const textIcon = ({type, color, title, size}) => {
   return (
     <View style={styles.container}>
       <Icon name={type} type="font-awesome" color={color} size={size} />

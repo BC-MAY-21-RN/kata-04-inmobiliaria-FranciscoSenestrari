@@ -2,8 +2,7 @@ import {StyleSheet, Text, View} from 'react-native';
 import TextIcon from './textIcon';
 import React from 'react';
 
-const detailsBar = props => {
-  const {title, location, bed, bathroom, area, cost} = props;
+const detailsBar = ({title, location, bed, bathroom, area, cost}) => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>{title}</Text>

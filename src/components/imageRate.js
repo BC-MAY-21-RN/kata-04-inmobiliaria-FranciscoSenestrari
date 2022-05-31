@@ -2,8 +2,7 @@ import {View, Image, StyleSheet} from 'react-native';
 import React from 'react';
 import TextIcon from './textIcon';
 
-const imageRate = props => {
-  const {url, rate} = props;
+const imageRate = ({url, rate}) => {
   return (
     <View style={styles.container}>
       <Image style={styles.image} source={{uri: url}} />
